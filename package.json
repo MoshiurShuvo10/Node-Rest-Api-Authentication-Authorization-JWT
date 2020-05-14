@@ -1,7 +1,7 @@
 {
   "name": "rest-api-node",
   "version": "1.0.0",
-  "description": "rest api implementation with JWT authentication",
+  "description": "rest api with jwt implementation",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
