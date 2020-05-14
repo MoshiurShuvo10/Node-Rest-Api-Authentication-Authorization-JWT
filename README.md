@@ -29,10 +29,14 @@ Figures out the header and payload using Base64 encoder. Calculates the signatur
 ![1](https://user-images.githubusercontent.com/36560845/81981330-f9760480-9651-11ea-8ec8-6581cc83cb88.png)
 
 ![2](https://user-images.githubusercontent.com/36560845/81981358-03980300-9652-11ea-8a5d-787a85cb2125.png)
+
 * After successfull login, a token will be generated with response.
+
 ![3](https://user-images.githubusercontent.com/36560845/81981369-07c42080-9652-11ea-8d7e-b1f6369a0dd1.png)
+
 * Copy the token.
 * To get all the users, Go to Authorization -> Type: Bearer Token -> paste the token in the Token input box.
+
 ![4](https://user-images.githubusercontent.com/36560845/81981385-0bf03e00-9652-11ea-8579-efbcd9c9dad9.png)
 
 * This token will have to be provided for every request.
