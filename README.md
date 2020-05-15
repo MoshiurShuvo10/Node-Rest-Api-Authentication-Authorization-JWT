@@ -1,7 +1,7 @@
 # Node-Rest-Api-Authorization-JWT
 * In a single word, JWT is an ***authorization*** mechanism. It has nothing to do with ***authentication***.
 ### JWT workflow
-* Step 1: User make a request to login to a system prividing username and password.
+* Step 1: User makes a request to login to a system providing username and password.
 * Step 2: JWT comes into picture at this point. Once a user is authenticated, server creates a token which is a json object.
 Server signs this object by a secrete key which is only known to that server. After this digital signature, the token is sent back to the user.And this token is called ***JSON Web Token(JWT)***
 * Step 3: Client saves this token either in local storage or in cookie.
